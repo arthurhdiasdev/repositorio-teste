@@ -1,6 +1,31 @@
 *{
     margin: 0%;
 }
-body{
+.container{
+    display: flex;
+    max-width: 920;
+    background-color: aqua;
     
 }
+.titulo{
+    flex: 1;
+    text-align: center;
+}
+.menu{
+    background-color: green;
+    flex: 2;
+    
+}
+.menu nav ul{ 
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.menu nav ul li{
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    flex: 1;
+}
+
